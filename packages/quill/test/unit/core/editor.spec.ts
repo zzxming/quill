@@ -1224,7 +1224,7 @@ describe('Editor', () => {
       const editor = createEditor(
         `
           <h1 class="ql-align-right"><em>01</em></h1>
-          <img src="#" />
+          <h1 class="ql-align-right"><em><img src="#" /></em></h1>
           <h1 class="ql-align-center"><em>34</em></h1>
         `,
       );
